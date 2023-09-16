@@ -1,0 +1,46 @@
+.sallers{
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 248px;
+
+    p{
+        margin: 27px auto 0;
+        max-width: 632px;
+    }
+    p + p {
+        margin-top: 47px;
+    }
+    p, span{
+        color: #000;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    p + h1 {
+        margin-top: 87px;
+    }
+    h1 + .cards-container {
+        margin-top: 50px;
+    }
+    .cards-container{
+        display: flex;
+        justify-content: space-between;
+        span{
+            max-width: 164px;
+            font-size: 17px;
+            font-weight: 700;
+            color: #000;
+            text-align: center;
+            display: inline-block;
+        }
+        p{
+            font-size: 17px;
+            font-weight: 400;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        img + span {
+            margin-top: 27px;
+        }
+    }
+}
